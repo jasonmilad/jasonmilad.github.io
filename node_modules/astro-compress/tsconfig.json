@@ -1,0 +1,7 @@
+{
+	"compilerOptions": {
+		"outDir": "dist"
+	},
+	"extends": "@nikolarhristov/config/tsconfig.json",
+	"include": ["src"]
+}
