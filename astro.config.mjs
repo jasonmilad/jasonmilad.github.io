@@ -7,6 +7,5 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://jasonmilad.xyz',
-  base: '/jasonmilad.github.io',
   integrations: [tailwind(), image(), compress(),  sitemap()]
 });
